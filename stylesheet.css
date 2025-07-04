@@ -1,1 +1,32 @@
+@media (min-width: 680px) {
+    .cards-grid {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .card.cards-grid{
+        border-bottom: 0;
+    }
+    .cards-grid > a{
+        border-right:1px solid #e8e8e8;
+    }
+    .cards-grid > a:last-child{
+        border-right:0px;
+    }
+}
 
+.card {
+    border:0px;
+    border-bottom: 1px solid #e8e8e8;
+    border-radius: 0px;
+    margin-bottom: 5px;
+}
+.card-footer{
+    border-top: 0;
+    padding-left:0; padding-right:0;
+}
+.card-list>li{
+    padding: 4px 0px;
+}
+.card .card-list{
+    border-top:  1px solid #e8e8e8;;
+}
